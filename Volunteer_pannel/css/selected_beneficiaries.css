@@ -1,0 +1,48 @@
+
+#uploadicon{
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedcase_section{
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.btn-remove{
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #213c2e;
+    color: #b3d5bf;
+}
+.btn-remove:hover{
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #b3d5bf;
+    color: #213c2e;
+}
+.btn-dashboard{
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #b3d5bf;
+    color: #213c2e;
+}
+.instructions{
+    padding-top: 120px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e6f5eb;
+}
+.instruction-header{
+    color:#008140;
+}

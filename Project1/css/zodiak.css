@@ -1,0 +1,36 @@
+/**
+* @license
+*
+* Font Family: Zodiak
+* Designed by: Jérémie Hornus, Gaetan Baehr, Jean-Baptiste Morizot, Alisa Nowak, Theo Guillard
+* URL: https://www.fontshare.com/fonts/zodiak
+* © 2024 Indian Type Foundry
+*
+* Zodiak Thin 
+* Zodiak ThinItalic 
+* Zodiak Light 
+* Zodiak LightItalic 
+* Zodiak Regular 
+* Zodiak Italic 
+* Zodiak Bold 
+* Zodiak BoldItalic 
+* Zodiak Extrabold 
+* Zodiak ExtraboldItalic 
+* Zodiak Black 
+* Zodiak BlackItalic 
+* Zodiak Variable (Variable font)
+* Zodiak VariableItalic (Variable font)
+
+*
+*/
+@font-face {
+  font-family: 'zodiak';
+  src: url('../fonts/Zodiak-Thin.woff2') format('woff2'),
+       url('../fonts/Zodiak-Thin.woff') format('woff'),
+       url('../fonts/Zodiak-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+

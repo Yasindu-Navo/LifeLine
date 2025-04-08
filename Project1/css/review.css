@@ -1,0 +1,27 @@
+.star-rating {
+    direction: rtl;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.star-rating input {
+    display: none;
+}
+.star-rating label {
+    color: #ddd;
+    cursor: pointer;
+}
+.star-rating input:checked ~ label,
+.star-rating input:checked ~ label ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #f7d106;
+}
+.card-para{
+    font-size: 18px;
+}
+.review-section{
+    background-color: #f4f4f4;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}

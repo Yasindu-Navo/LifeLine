@@ -1,0 +1,139 @@
+body {
+    background-color: #f1f2f7;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    transition: margin-left 0.3s ease;
+
+}
+
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background-color: #343a40;
+    padding-top: 20px;
+    color: #fff;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    overflow-x: hidden;
+    z-index: 1000;
+}
+
+
+.sidebar.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+
+}
+
+
+.sidebar a {
+    display: block;
+    color: #adb5bd;
+    padding: 10px 15px;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+.sidebar a.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.sidebar .sidebar-header {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Sidebar Trigger Area */
+.sidebar-trigger {
+    width: 10px;
+
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: 999;
+    cursor: pointer;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: calc(100% - 200px);
+    z-index: 1;
+    top: 0;
+    transition: margin-left 0.3s ease, width 0.3s ease;
+}
+
+.navbar.collapsed {
+    margin-left: 0;
+    width: 100%;
+}
+
+.navbar .form-control {
+    border-radius: 40px;
+    margin-right: 10px;
+    width: 400px;
+}
+
+/* Main content styling */
+.content {
+    margin-left: 200px;
+    padding: 100px 20px 20px 20px;
+    transition: margin-left 0.3s ease;
+}
+
+.content.collapsed {
+    margin-left: 0;
+
+}
+
+/* Button styling */
+.btn-custom {
+    border-radius: 50px;
+}
+
+
+.table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.profile-dropdown {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    height: 20px;
+}
+
+
+h2.text-center {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar-brand img {
+    height: 80px; 
+    width: auto;
+}

@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --font-base:"Poppins";
+}
+
+section{
+   padding-left: 10%;
+    padding-right: 10%;
+} 
+
+#bimg, #details {
+    min-height: 100vh; /* Both columns stretch to full viewport height */
+}
+.entryarea{
+    position: relative;
+    height: 65px;
+    margin-right: 18px;
+    line-height: 30px;
+}
+
+input,textarea{
+    position: absolute;
+    transition: 0.1s ease;
+    z-index: 1111;
+    border-radius: 10px;
+    padding: 5px;
+    color: #1e6518;
+    height: 40px;
+}
+.labelline{
+    position: absolute;
+    transition: 0.2s ease;
+    font-size: 1.0em;
+    color: gray;
+    top: 5px;
+    margin-left: 10px;
+   padding: 0.25px;
+   z-index: 1111;
+    
+}
+input:focus + .labelline,
+textarea:focus + .labelline,
+textarea:valid + .labelline,
+input:valid + .labelline{
+    transform: translate(-1px,-30px) scale(0.88);
+    z-index: 1111;
+    height: 30px;
+    line-height: 30px;
+}
+
+.carousel-item h4,h5{
+    
+    color: rgb(3, 104, 92);
+    padding-left: 40px;
+}
+.carousel-item img{
+    height: 100px;
+}
+
+.request-section{
+   height: 100vh;
+    padding-top: 170px;
+    padding-bottom: 50px;
+    
+}
+h1{
+    font-family: var(--font-base);
+}
+
+#req-form{
+    padding-top: 40px;
+    padding-bottom:300px;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    
+    
+}
+label{
+      padding: 5px;
+      font-size: 16px;
+     
+     
+}
+
+.button{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.button:hover{
+    background-color:#0a400d;
+    color: rgb(255, 255, 255);
+    border-color:aliceblue ;
+    
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--font-base);
+   
+    
+}
+
+#bimg {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    background-color: #d6edd7;
+    height: 100vh;
+    
+}
+
+#bimg img{
+    height: 250px;
+    position: relative;
+    margin-top: -150px;
+    margin-bottom: 120px;
+    
+}
+
+#bimg h2 {
+    font-family: var(--font-base);
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    color: #6a6b0c;
+    margin-top: -150px;
+    position: relative;
+}
+
+#details h3{
+    color: #063020;
+    font-family: var(--font-base);
+}
+
+#details{
+    background-color:#f5f3df;
+    height: 100vh;
+    padding-bottom: 100px;
+    padding-top: 80px;
+    overflow-y: auto;
+}
+
+#navbar {
+    z-index: 9999;
+    position: fixed;
+}
+
+#footer{
+    width: 100vw;
+    margin-left: 0%;
+    overflow-x: hidden;
+}

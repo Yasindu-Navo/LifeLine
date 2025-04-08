@@ -1,0 +1,48 @@
+
+
+.login-form{
+    background-color: rgb(251, 255, 255);
+}
+.card{
+    border-radius: 20px;
+}
+
+
+.limg {
+    margin-left:70px;
+    width:300px;
+    height: 200px;
+    
+}
+button{
+   width:100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+
+
+.asd{
+    text-decoration: none;
+}
+a img{
+    width: 100px;
+    height: 100px;
+}
+
+#flogin{
+    background-color: #90EE90;
+}
+
+
+.plogin{
+    margin-left: 10px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #2F4F4F;
+}
+#limage{
+    padding-bottom:50px;
+    padding-top:50px;
+    background-color: #bdecba;
+}

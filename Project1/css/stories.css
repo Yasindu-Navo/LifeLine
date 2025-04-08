@@ -1,0 +1,171 @@
+/* General card styling */
+.stories-section{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 130px;
+    padding-bottom: 40px;
+    background-color: #b3d5bf;
+}
+.stories-header{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding-top: 20px;
+}
+.stories-para{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    
+}
+.heading{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#patient_card{
+    border: 0px solid  #213a2e;
+    border-radius: 0px;
+    padding: 0px;
+}
+#patient_card a{
+   display: flex;
+   justify-content: flex-end;
+   text-decoration: none;
+}
+
+/*.card:hover {
+   background-color: #b4c4d4;
+    
+}*/
+
+/* Image styling */
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    height:250px; /* Reduced height of the image */
+}
+
+/* Title and text */
+.card-title1 {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem; 
+    margin-bottom: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-text1 {
+    font-size: 0.9rem; 
+    color: #555;
+    margin-bottom: 0px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 4px;
+}
+#text1{
+    color: #3ed138;
+    font-weight: bold;
+    justify-content: end;
+    align-items: end;
+}
+#text2{
+    color: #C41E6E;
+    font-weight: bold;
+}
+
+
+.progress {
+    height: 8px; 
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #28a745;
+}
+
+
+.btn-donate{
+   font-weight: bold;
+    width:40%;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 0px;
+    background-color: #213a2e;
+    color: #ffffff;
+    
+    
+    
+}
+.btn-donate:hover{
+    font-weight: bold;
+    width:40%;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius:0px;
+    background-color: #b3d5bf;
+    color: #213a2e;
+}
+
+
+.container1 {
+    padding-left: 10%;  /* Added padding to the left */
+    padding-right: 10%; /* Added padding to the right */
+    padding-top: 50px;  /* Optional: add some top padding */
+    padding-bottom: 20px; /* Optional: add some bottom padding */
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 3%; /* Reduced padding on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 2%; /* Even less padding on very small screens */
+    }
+}
+
+@media only screen and (max-width: 540px){
+    [class*="col-"] {
+        width: 100%;
+    }
+    .btn-donate{
+/*    font-weight: bold;*/
+    width:150px;
+    height: 40px;
+    font-size: small;
+    
+    
+    
+}
+
+}
+@media (min-width: 540px) and (max-width: 767px){
+    [class*="col-"] {
+        width: 100%;
+    }
+    #storiesimg{
+        width: 500px;
+    }
+    .btn-donate{
+    font-weight:normal;
+    width:150px;
+    height: 40px;
+    
+    
+    font-size: small;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 990px){
+    [class*="col-"] {
+        width: 100%;
+    }
+    #storiesimg{
+        width: 760px;
+    }
+}

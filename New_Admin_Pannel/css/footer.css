@@ -1,0 +1,95 @@
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Matches sidebar background */
+    color: #adb5bd; /* Light grey text */
+    padding: 40px 0;
+    margin-top: 50px; /* Space above footer */
+}
+
+footer .container {
+    max-width: 1200px;
+}
+
+footer .single-box {
+    margin-bottom: 30px;
+}
+
+footer .single-box h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff; /* White headings */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #fff; /* White text on hover */
+}
+
+footer .card-area i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #adb5bd;
+    transition: color 0.3s ease;
+}
+
+footer .card-area i:hover {
+    color: #fff; /* White icons on hover */
+}
+
+footer .socials a {
+    color: #adb5bd;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+footer .socials a:hover {
+    color: #fff; /* White icons on hover */
+}
+
+footer .footer-logo {
+    width: 150px; /* Adjust as needed */
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 0;
+    color: #adb5bd;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 0;
+    }
+
+    footer .single-box h2 {
+        font-size: 16px;
+    }
+
+    footer .card-area i {
+        font-size: 20px;
+    }
+
+    footer .socials a {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    footer .footer-logo {
+        width: 120px; /* Smaller logo on mobile */
+    }
+}

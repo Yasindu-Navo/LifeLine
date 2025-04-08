@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --font-base:"Poppins";
+}
+
+
+.request-section{
+   height: 400px;
+    padding-top: 120px;
+}
+h1{
+    font-family: var(--font-base);
+}
+
+#req-form{
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+
+    
+    
+}
+label{
+      padding: 5px;
+      font-size: 16px;
+     
+     
+}
+input,textarea{
+    padding: 5px;
+    height: 50px;
+    
+}
+.button{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.button:hover{
+    background-color: rgb(14, 94, 24);
+    color: rgb(255, 255, 255);
+    border-color:aliceblue ;
+    
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--font-base);
+   
+    
+}
+
+#bimg {
+    background-image: url('../images/new2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 56% 75%;
+}
+
+#details{
+    background-color: #edeef3;
+}

@@ -1,0 +1,67 @@
+body{
+    background-color:#FAFAFA;
+}
+
+.card-img-top{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.card-body{
+    box-shadow: 0 15px 15px -8px rgba(0,0,0,0.5);
+        background: linear-gradient(rgb(255, 255, 255) ,rgb(164, 191, 165) 95%);
+
+}
+
+img:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+   
+    transform: scale(1.05);
+  }
+  
+  
+
+.card-group{
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.past_project{
+    padding-top: 120px;
+}
+
+.card-body .card-title{
+    font-size: 30px;
+   color:#2F4F4F; 
+}
+
+.card-body .card-text{
+    color:#000000;
+}
+
+.card-text .text-muted{
+   color:#F5F5F5;
+   font-size: 22px;
+}
+
+.carousel-caption {
+          position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5); /* Dark background with opacity */
+            color: white;
+            padding: 10px;  
+            
+        }
+        .carousel-caption h1{
+            color: white;
+            
+        }
+        
+        #carouselExampleSlidesOnly{
+            padding-top: 150px;
+            padding-left:10%;
+            padding-right:10%;
+            
+        }

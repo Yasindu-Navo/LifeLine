@@ -1,0 +1,77 @@
+:root{
+    --font-base:"zodiak";
+    --bs-scrollspy-offset: 300px;
+}
+
+body {
+    background-color: #f0f8ff;
+   
+     
+}
+h2{
+    font-family: var(--font-base);
+}
+
+#scrollspy {
+    height: 100vh;
+    background-color:#edeef3;
+    overflow-y: scroll;
+    position: relative;
+    
+
+}
+
+#area {
+   
+    padding: 4px;
+    padding-left: 4px;
+    border-radius: 2%;
+    font-size: small;
+    
+   
+            
+}
+
+
+ol.a{
+    list-style-type: lower-alpha;
+    line-height: 1.9;
+}
+
+.navbar-nav-scroll .nav-pills .nav-link.active {
+    background-color: #125517; 
+    color: white; 
+  }
+
+  .navbar-nav-scroll .nav-pills .nav-link{
+    color: #07430b;
+    font-size: 1.2em;
+    
+
+  }
+
+
+ 
+  
+p{
+    line-height: 2.1;
+}
+
+img{
+    width: 195px;
+    
+}
+.logo{
+    position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+}
+
+
+
+@media (max-width: 575px) {
+    .fixed-top {
+        display: none;
+    }
+}

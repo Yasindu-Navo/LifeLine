@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --font-base:Poppins;
+}
+.carousel-item img{
+    padding-top:55px;
+    padding-left: 10%;
+    padding-right:  10%;
+}
+#carouselExampleCaptions{
+    padding-top: 100px;
+}
+
+.carousel-caption {
+    z-index: 10; 
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-caption h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+   
+}
+.carousel-caption p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    text-align: center;
+   
+    
+   
+}
+button{
+    width: 120px;
+}
+/*caption section*/
+.caption{
+    background-color: rgb(255, 251, 246);
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:  55px;
+    padding-top: 200px;
+    text-shadow: 2px 2px 8px #c5c2c2;
+
+}
+.para1{
+    color:#2F4F4F;
+    padding-bottom:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+#button{
+    width: 250px;
+    border-radius: 5px;
+    
+}
+
+/*why volunteers
+.whyvolunteers{
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+
+.why_heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:  55px;
+    padding-top: 70px;
+}
+#vol-card{
+    border: none;
+    padding-bottom: 30px;
+    border-radius: 30px;
+    
+
+}
+whyvolunteers.card p{
+    font-weight: bold;
+}
+.volunteers-info  button{
+    width: 200px;
+  
+}*/
+
+.volunteers-contribution{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color:#d5e3e1 ;
+}
+.volunteers-contribution .card{
+    border: none;
+    background-color:#d5e3e1 ;
+}
+.volunteers-contribution .card p,h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+.volunteers-info button{
+    width: 250px;
+}
+
+
+
+
+@media only screen and (max-width: 540px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+     .carousel-item img{
+        padding-top: 100px;
+        height: 70vh;
+        
+     }
+     .carousel-caption h1{
+        padding-top: 200px;
+        font-size: 25px;
+        font-weight: bold;
+        width: 100%;
+        text-transform: uppercase; 
+        letter-spacing: 1px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 255, 255);
+    }
+    .carousel-caption p {
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom:  10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        line-height: 1.5;
+        color: rgb(255, 255, 255);
+    }
+    .carousel-caption .btn{
+        width: 100px;
+        height: 40px;
+    }
+    .heading{
+        font-size:  35px;
+        padding-top: 100px;
+    }
+    .para1{
+        font-size: 17px;
+    }
+
+  }
+  @media (min-width: 540px) and (max-width: 767px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+       .carousel-item img{
+          padding-top: 100px;
+          height: 70vh;
+          
+       }
+       .carousel-caption h1{
+          padding-top: 200px;
+          font-size: 30px;
+          font-weight: bold;
+          width: 100%;
+          text-transform: uppercase; 
+          letter-spacing: 1px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          color: rgb(255, 255, 255);
+      }
+      .carousel-caption p {
+          width: 100%;
+          padding-top: 20px;
+          padding-bottom:  15px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 20px;
+          line-height: 1.5;
+          color: rgb(255, 255, 255);
+      }
+      .carousel-caption .btn{
+          width: 100px;
+          height: 35px;
+      }
+      .heading{
+        font-size:  43px;
+        padding-top: 110px;
+    }
+    .para1{
+        font-size: 20px;
+    }
+
+  }
+  @media (min-width: 767px) and (max-width: 950px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+       .carousel-item img{
+          padding-top: 100px;
+          height: 70vh;
+          
+       }
+       .carousel-caption h1{
+          padding-top: 200px;
+          font-size: 30px;
+          font-weight: bold;
+          width: 100%;
+          text-transform: uppercase; 
+          letter-spacing: 1px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          color: rgb(255, 255, 255);
+      }
+      .carousel-caption p {
+          width: 100%;
+          padding-top: 20px;
+          padding-bottom:  15px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 20px;
+          line-height: 1.5;
+          color: rgb(255, 255, 255);
+      }
+      .carousel-caption .btn{
+          width: 100px;
+          height: 40px;
+      }
+      .heading{
+        font-size:  43px;
+        padding-top: 110px;
+    }
+        .para1{
+            font-size: 24px;
+        }
+  }
+  
