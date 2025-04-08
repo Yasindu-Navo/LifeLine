@@ -1,2 +1,2 @@
 # LifeLine
- 2nd Year University Project
+ to run this project please open project1 folder using your local server.
